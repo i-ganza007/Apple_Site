@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+#link-nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 38px;
+    list-style: none;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.699);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    opacity: 0.96;
+    z-index: 1000;
+    height: 32px;
+}
+.nav-svg{
+    position: relative;
+    bottom: 16px;
+}
+#first-section{
+    background-image: url('C:\Users\HP\OneDrive\Desktop\Apple_Cloning\apple_site\src\assets\images\hero_apple_fitness_plus_ny__f1liz5hdssey_largetall.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin-top: 36px;
+}
+.inner-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 380px;
+    max-height: 190px;
+}
+.inner-contents > svg {
+    width: 200px !important;
+    height: 78px !important;
+
+}
+.inner-contents > button {
+    padding: 14px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: #0da3ed;
+    color: white;
+    font-size: 17px;
+}
+#second-section{
+    background-image: url('C:\Users\HP\OneDrive\Desktop\Apple_Cloning\apple_site\src\assets\images\hero_apple_watch_ny__c8f1tzaoa72a_largetall.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    height:100vh ;
+    margin-top: 13px;
+}
+
+
+
+.second-inner-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 390px;
+}
+.second-inner-contents > img {
+    width: 70px;
+    height: 70px;
+}
+.second-inner-contents > h2{
+    font-weight: 200;
+    gap: 10px;
+}
+.button-container{
+    display: flex;
+    gap: 10px;
+}
+#learn-more{
+    padding: 14px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: #0da3ed;
+    color: white;
+    font-size: 17px;
+}
+#shop{
+    padding: 14px;
+    border-radius: 25px;
+    border: 1px solid #0da3ed;
+    background-color: transparent;
+    color: #0da3ed;
+    font-size: 17px;
+    width: 80px;
+}
+
+#third-section{
+    background-image: url('C:\Users\HP\OneDrive\Desktop\Apple_Cloning\apple_site\src\assets\images\hero_iphone16pro_avail__fnf0f9x70jiy_largetall.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    height:100vh ;
+    margin-top: 13px;
+}
+#third-inner-contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 35px;
+}
+#third-inner-contents > #learn-more{
+    padding: 14px;
+    border-radius: 25px;
+    border: 1px solid #0da3ed;
+    background-color: #0da3ed;
+    color: white;
+    font-size: 17px;
+}
+
